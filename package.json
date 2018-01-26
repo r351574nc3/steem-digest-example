@@ -20,7 +20,10 @@
   "dependencies": {
     "bluebird": "^3.5.1",
     "express": "^4.16.2",
+    "handlebars": "^4.0.11",
+    "moment": "^2.20.1",
     "node-schedule": "^1.3.0",
+    "promised-handlebars": "^2.0.1",
     "steem": "^0.7.1"
   }
 }

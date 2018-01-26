@@ -1,13 +1,11 @@
-# docker-steem-bot-template
-Template/Example project for creating steem bots
+# steem-digest-example 
 
-This is a template project just to get developer started in developing steem bots and quickly testing/executing.
+Automatically posts a digest/newsletter for followers of posts that may have been missed during the week.
 
-It's also useful for getting non-technical people to run their own steem bots.
 
 ## Usage
 
-`docker run --rm -p 3000:3000 my-repo/my-steem-bot:latest`
+`docker run --rm -p 3000:3000 -e STEEM_WIF=<someWIF> r351574nc3/steem-digest-example`
 
 ### Mac OS Users
 
